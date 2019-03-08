@@ -20,6 +20,7 @@ body {
   margin: 30px;
   background-color: #435470;
   color: aliceblue;
+  border-radius: 25px;
 }
 
 .grid1 {
@@ -40,7 +41,6 @@ body {
 input {
   font-family: inherit;
 }
-
-button {
-  background-color: #2eaa72;
+.button {
+  border-radius: 25px;
 }
