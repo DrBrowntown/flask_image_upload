@@ -30,6 +30,7 @@ def upload():
 
     return render_template("complete.html", image_name=filename)
 
+
 @app.route('/upload/<filename>')
 def send_image(filename):
     return send_from_directory("images", filename)
